@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cheap Store</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--kòd ki fè meni an : header>nav>ul>li>a*4-->
+
+  <header>
+    <div class="anndan_meni">
+      <button class="bouton_meni" id="meniCS">☰  Menu</button>
+      <nav class="nav_meni" id="navMeni">
+      <ul>
+        <li><a href="index.html">Akèy</a></li>
+        <li><a href="meni.html">Meni</a></li>
+        <li><a href="about.html">Sèvis</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    </div>
+    <h1 class="flex">Cheap Store</h1>
+    <h2 class="akey">Byenveni sou platfòm Cheap Store</h2>
+  </header>
+
+
+  <h3> kèk ti mo </h3>
+  <div>
+    <p class="kektimo"><strong>Cheap Store</strong> se yon platfò'm ki fèt nan entansyon pouw edew fè ekonomi ak pou edew mennen yon lòt mòd vi, <span class="misyon">Cheap Store ap edew pran swen imaj ou</span>, lap edew kreye tèt pou vin moun ou t toujou reve ye a paske lakay nou ou pap achte wap investi. nenpòt pwodwi ou pran Kay <strong>Cheap Store</strong> sonw envestiman ou fè nan ou tèt paske nap swanye aparans ou pandanw ap fè ekonomi menm janw konn abitye tandel janw prezantew c konsa yo achte'w.</p>
+  </div>
+  <!-- Project -->
+  
+  <footer>
+    <script>
+      document.getElementById('meniCS').addEventListener('click', function() {
+        var menu = document.getElementById('navMeni');
+        menu.classList.toggle('show');
+      });
+    </script>
+    <script>
+      alert("Byenveni sou platfòm Cheap Store")
+    </script>
+    <script src="main.js"></script>
+  </footer>
+</body>
+</html>

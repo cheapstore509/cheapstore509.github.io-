@@ -1,0 +1,109 @@
+body {
+    font-size: 15pt;
+    background: #F5F5F5;
+    padding: 20px;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  background-color: #925C91E6;
+  color: white;
+  padding: 0;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+
+
+.anndan_meni{
+  position: relative;
+}
+.bouton_meni{
+  background-color: #FF7F50; /* Orange */
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+}
+
+.nav_meni{
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #444;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.flex{
+  margin: 0;
+  font-size: 30pt;
+  color: #BD26AA;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}
+
+.akey{
+  color: #2C3E50; /* Bleu marine */
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.nav_meni ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav_meni ul li {
+    border-bottom: 1.5px solid #555;
+}
+
+.nav_meni ul li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav_meni ul li a:hover {
+    background-color: #FF4500;
+}
+
+.show {
+    display: block;
+}
+
+h3{
+  display: flex;
+  width: 120px;
+  color: #2C3E50;
+  border: 2;
+  background: ;
+  border-radius: 5px;
+  margin: 7px;
+}
+
+.kektimo{
+  color: #333333; /* Gris foncé */
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.misyon{
+  color: #FFD700; /* Doré */
+  font-weight: bold;
+  font-size: 20px;
+}
