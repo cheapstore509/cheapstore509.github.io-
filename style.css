@@ -107,3 +107,12 @@ h3{
   font-weight: bold;
   font-size: 20px;
 }
+
+#kontak{
+  display: inline-block;
+  background-color: #320b7ae6;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: lighter;
+  border: 5px solid rgb(24, 90, 145);
+}
